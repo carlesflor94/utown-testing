@@ -1,24 +1,26 @@
+import "../styles/login.scss";
+import backIcon from "../assets/icons/Back-Button.svg";
+import logo from "../assets/images/Vector.svg";
+
 const Login = () => {
   return (
-    <div>
-      <button>
-        <img src="../assets/icons/Back-Button.svg" alt="Back button" />
+    <div className="login">
+      <button className="login__back">
+        <img src={backIcon} alt="Back button" />
       </button>
 
-      <div>
-        <img src="../assets/images/Vector.svg" alt="Utown logo" />
+      <div className="login__logo">
+        <img src={logo} alt="Utown logo" />
       </div>
 
-      <form>
-        <div>
-          <input type="text" placeholder="Phone number" />
-        </div>
-        <div>
-          <input type="text" placeholder="Password" />
-        </div>
+      <form className="login__form">
+        <input type="text" placeholder="Phone number" />
+
+        <input type="password" placeholder="Password" />
+
         <button type="submit">Log in</button>
       </form>
-      <div>
+      <div className="login__recover">
         Forgot password?<button type="button">Recover</button>
       </div>
     </div>
