@@ -9,19 +9,21 @@ const Login = () => {
         <img src={backIcon} alt="Back button" />
       </button>
 
-      <div className="login__logo">
-        <img src={logo} alt="Utown logo" />
-      </div>
+      <div className="login__content">
+        <div className="login__logo">
+          <img src={logo} alt="Utown logo" />
+        </div>
 
-      <form className="login__form">
-        <input type="text" placeholder="Phone number" />
+        <form className="login__form">
+          <input type="text" placeholder="Phone number" />
 
-        <input type="password" placeholder="Password" />
+          <input type="password" placeholder="Password" />
 
-        <button type="submit">Log in</button>
-      </form>
-      <div className="login__recover">
-        Forgot password?<button type="button">Recover</button>
+          <button type="submit">Log in</button>
+        </form>
+        <div className="login__recover">
+          Forgot password?<button type="button">Recover</button>
+        </div>
       </div>
     </div>
   );
