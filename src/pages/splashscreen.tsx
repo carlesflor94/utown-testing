@@ -1,3 +1,4 @@
+import "../styles/splashscreen.scss";
 import logo from "../assets/images/Vector.svg";
 
 const Splash = () => {
