@@ -9,15 +9,15 @@ const Opening = () => {
       <div className="opening__content">
         <div className="opening__logo">
           <img src={logo} alt="Utown app logo" />
-          <span>TOWN</span>
+          <span>OWN</span>
         </div>
-      </div>
 
-      <div className="opening__buttons">
-        <button className="opening__login" onClick={() => navigate("/login")}>
-          Log in
-        </button>
-        <button className="opening__register">Register</button>
+        <div className="opening__buttons">
+          <button className="opening__login" onClick={() => navigate("/login")}>
+            Log in
+          </button>
+          <button className="opening__register">Register</button>
+        </div>
       </div>
     </div>
   );

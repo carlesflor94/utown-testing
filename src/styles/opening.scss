@@ -1,7 +1,35 @@
 .opening {
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #3471f5ed;
   color: white;
+}
+
+.opening__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.opening__logo {
+  display: flex;
+  align-items: center;
+
+  img {
+    padding: 16px 8px;
+    filter: brightness(0) invert(1);
+  }
+
+  span {
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 10px;
+  }
+}
+
+.opening__buttons {
+  display: flex;
+  flex-direction: column;
 }
